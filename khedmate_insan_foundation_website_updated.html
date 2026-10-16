@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="খেদমতে ইনসান ফাউন্ডেশন — মানবতার সেবায়, মানুষের পাশে।">
+<title>খেদমতে ইনসান ফাউন্ডেশন | Khedmate Insan Foundation</title>
+<style>
+:root{--green:#0b3d2e;--green2:#176b4b;--lime:#d9f99d;--cream:#f7faf6;--ink:#17251e;--muted:#607168;--line:#e1eae3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,"Noto Sans Bengali","Hind Siliguri",sans-serif;color:var(--ink);background:#fff;line-height:1.7}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 0}.brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--green);line-height:1.3}.logo{width:48px;height:48px;border-radius:15px;background:var(--green);display:grid;place-items:center;color:#fff;font-size:25px}.brand small{display:block;font-size:11px;letter-spacing:.8px;color:var(--muted);font-weight:700}.links{display:flex;gap:20px;align-items:center;font-size:14px;font-weight:650}.links a:hover{color:var(--green2)}.menu{display:none}
+.hero{background:linear-gradient(120deg,rgba(5,43,30,.94),rgba(13,79,54,.82)),url('https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=1800&q=85') center/cover;color:white;padding:92px 0 86px}
+.hero-inner{max-width:760px}.eyebrow{display:inline-block;color:var(--lime);font-weight:800;letter-spacing:1.4px;font-size:13px;text-transform:uppercase}.hero h1{font-size:clamp(34px,5.4vw,60px);line-height:1.2;margin:16px 0}.hero p{font-size:18px;color:#e4f0e9;max-width:640px;margin:0 0 28px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;justify-content:center;align-items:center;padding:12px 20px;border-radius:10px;font-weight:800;border:1px solid transparent}.btn-primary{background:var(--lime);color:#183322}.btn-outline{border-color:#c7dfd0;color:white}.btn:hover{transform:translateY(-1px)}
+section{padding:72px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 34px}.section-head h2{font-size:clamp(27px,4vw,38px);line-height:1.25;margin:0 0 12px;color:var(--green)}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{padding:24px;border:1px solid var(--line);border-radius:17px;background:white;box-shadow:0 8px 26px #0b3d2e08}.ico{width:50px;height:50px;border-radius:14px;display:grid;place-items:center;background:#eaf5ed;color:var(--green2);font-size:25px}.card h3{margin:14px 0 6px;font-size:19px;color:var(--green)}.card p{margin:0;color:var(--muted);font-size:14px}
+.about{background:var(--cream)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}.about-visual{min-height:330px;border-radius:22px;background:linear-gradient(0deg,#0b3d2e33,#0b3d2e10),url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1100&q=85') center/cover}.about h2{font-size:clamp(27px,4vw,38px);line-height:1.3;color:var(--green);margin:0 0 14px}.about p{color:var(--muted)}.ticks{padding:0;list-style:none}.ticks li{margin:10px 0}.ticks li:before{content:"✓";display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:#dff4df;color:#176b4b;font-weight:900;margin-right:9px}
+.callout{background:var(--green);color:white;border-radius:22px;padding:36px;display:flex;justify-content:space-between;align-items:center;gap:24px}.callout h2{font-size:clamp(25px,4vw,34px);line-height:1.3;margin:0 0 8px}.callout p{color:#d8e9df;margin:0}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:24px}.contact-panel{padding:25px;border:1px solid var(--line);border-radius:17px}.contact-panel h3{margin-top:0;color:var(--green)}.contact-item{padding:12px 0;border-bottom:1px solid var(--line)}.contact-item:last-child{border:0}.contact-item strong{display:block}.contact-item span{color:var(--muted);font-size:14px}.notice{background:#fff8e5;border:1px solid #f0dfad;border-radius:12px;padding:14px;color:#6d561c;font-size:13px;margin-top:18px}
+footer{background:#082c21;color:#e4f0e9;padding:30px 0}.footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-inner small{color:#b8d0c2}.social{display:flex;gap:14px;flex-wrap:wrap;color:#d9f99d;font-size:14px}
+@media(max-width:850px){.cards{grid-template-columns:repeat(2,1fr)}.about-grid,.contact-grid{grid-template-columns:1fr}.about-visual{min-height:250px}.links{gap:12px;font-size:13px}}
+@media(max-width:600px){.nav{align-items:flex-start}.links{display:none}.menu{display:block;font-size:13px;color:var(--green);font-weight:800;padding-top:12px}.hero{padding:66px 0}.hero p{font-size:16px}section{padding:54px 0}.cards{grid-template-columns:1fr}.callout{padding:26px;align-items:flex-start;flex-direction:column}.footer-inner{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="logo">♥</span><span>খেদমতে ইনসান ফাউন্ডেশন<small>KHEDMATE INSAN FOUNDATION</small></span></a>
+<nav class="links"><a href="#home">হোম</a><a href="#about">আমাদের সম্পর্কে</a><a href="#work">কার্যক্রম</a><a href="#help">সহযোগিতা</a><a href="#contact">যোগাযোগ</a></nav>
+<a class="menu" href="#contact">যোগাযোগ ↓</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-inner">
+<span class="eyebrow">মানবতার সেবায় • মানুষের পাশে</span>
+<h1>একটু সহায়তা,<br>একটি জীবনে আশার আলো।</h1>
+<p>খেদমতে ইনসান ফাউন্ডেশন মানুষের কল্যাণে কাজ করার একটি মানবিক উদ্যোগ। আসুন, একসাথে অসহায় ও সুবিধাবঞ্চিত মানুষের পাশে দাঁড়াই।</p>
+<div class="actions"><a class="btn btn-primary" href="#work">আমাদের কার্যক্রম দেখুন</a><a class="btn btn-outline" href="#contact">আমাদের সাথে যুক্ত হোন</a></div>
+</div></section>
+<section id="about" class="about"><div class="wrap about-grid">
+<div class="about-visual" role="img" aria-label="মানবিক সহায়তার প্রতীকী ছবি"></div>
+<div><span class="eyebrow" style="color:var(--green2)">আমাদের পরিচয়</span><h2>মানুষের সেবাই আমাদের অঙ্গীকার</h2>
+<p>খেদমতে ইনসান ফাউন্ডেশনের লক্ষ্য হলো মানবিক মূল্যবোধে উদ্বুদ্ধ হয়ে প্রয়োজনের সময় মানুষের পাশে দাঁড়ানো। স্বচ্ছতা, সম্মান ও আন্তরিকতার সঙ্গে সমাজের কল্যাণে কাজ করাই আমাদের প্রত্যাশা।</p>
+<ul class="ticks"><li>অসহায় ও সুবিধাবঞ্চিত মানুষের পাশে থাকা</li><li>সামর্থ্য অনুযায়ী শিক্ষা ও খাদ্য সহায়তা</li><li>স্বেচ্ছাসেবামূলক কাজে মানুষকে যুক্ত করা</li><li>সহায়তা কার্যক্রমে জবাবদিহি ও স্বচ্ছতা বজায় রাখা</li></ul>
+</div></div></section>
+<section id="work"><div class="wrap"><div class="section-head"><span class="eyebrow" style="color:var(--green2)">আমাদের উদ্যোগ</span><h2>যে সেবাগুলোতে আমরা পাশে থাকতে চাই</h2><p>আপনার ফাউন্ডেশনের বাস্তব কার্যক্রম অনুযায়ী এই বিভাগগুলো সম্পাদনা করে নেবেন।</p></div>
+<div class="cards">
+<article class="card"><div class="ico">♡</div><h3>মানবিক সহায়তা</h3><p>দুঃসময়ে অসহায় পরিবার ও প্রয়োজনগ্রস্ত মানুষের পাশে দাঁড়ানো।</p></article>
+<article class="card"><div class="ico">♧</div><h3>খাদ্য সহায়তা</h3><p>সামর্থ্য ও সংগৃহীত সহায়তা অনুযায়ী খাদ্যসামগ্রী বিতরণ।</p></article>
+<article class="card"><div class="ico">✎</div><h3>শিক্ষা সহায়তা</h3><p>সুবিধাবঞ্চিত শিক্ষার্থীদের শিক্ষা উপকরণ ও সহযোগিতার উদ্যোগ।</p></article>
+<article class="card"><div class="ico">＋</div><h3>চিকিৎসা সহায়তা</h3><p>প্রয়োজন অনুযায়ী অসচ্ছল মানুষের চিকিৎসা সহায়তায় উদ্যোগ।</p></article>
+</div></div></section>
+<section id="help" style="padding-top:0"><div class="wrap"><div class="callout"><div><h2>আপনিও হতে পারেন পরিবর্তনের অংশ</h2><p>আপনার সময়, দক্ষতা বা সামর্থ্য দিয়ে মানবসেবায় যুক্ত হোন।</p></div><a class="btn btn-primary" href="tel:+8801609827898">ফোন করুন</a></div></div></section>
+<section id="contact"><div class="wrap"><div class="section-head"><h2>যোগাযোগ করুন</h2><p>আমাদের সঙ্গে যুক্ত হতে বা কার্যক্রম সম্পর্কে জানতে যোগাযোগ করুন।</p></div>
+<div class="contact-grid"><div class="contact-panel"><h3>যোগাযোগের তথ্য</h3>
+<div class="contact-item"><strong>📍 ঠিকানা</strong><span>Mirzapur Bazzar, 1940</span></div>
+<div class="contact-item"><strong>☎️ মোবাইল</strong><span>01609-827898</span></div>
+<div class="contact-item"><strong>✉️ ইমেইল</strong><span>এখনও যোগ করা হয়নি</span></div>
+<div class="contact-item"><strong>🌐 ফেসবুক</strong><span>ফেসবুক পেজের লিংক পরে যোগ করা হবে</span></div>
+<div class="notice">অনুদানের তথ্য প্রকাশের আগে ফাউন্ডেশনের অনুমোদিত ব্যাংক/মোবাইল ফাইন্যান্সিয়াল সার্ভিসের বিবরণ ও স্বচ্ছ হিসাবের পদ্ধতি নিশ্চিত করুন।</div>
+</div><div class="contact-panel"><h3>আমাদের উদ্দেশ্য</h3><p>একটি সহানুভূতিশীল, মানবিক ও সহযোগিতাপূর্ণ সমাজ গড়ে তুলতে সবার অংশগ্রহণ গুরুত্বপূর্ণ।</p><p>স্বেচ্ছাসেবক, শুভাকাঙ্ক্ষী এবং সহযোগিতায় আগ্রহী ব্যক্তিদের আমাদের সঙ্গে যোগাযোগ করার আমন্ত্রণ জানাই।</p><a class="btn btn-primary" style="background:var(--green);color:white" href="tel:+8801609827898">ফোন করুন</a><p style="font-size:13px;color:var(--muted);margin-top:14px">ফেসবুক পেজ ও ইমেইল তৈরি হলে এখানে যোগ করা যাবে।</p></div></div></div></section>
+</main>
+<footer><div class="wrap footer-inner"><div><strong>খেদমতে ইনসান ফাউন্ডেশন</strong><br><small>মানবতার সেবায়, মানুষের পাশে।</small></div><div class="social"><a href="#about">আমাদের সম্পর্কে</a><a href="#work">কার্যক্রম</a><a href="#contact">যোগাযোগ</a></div><small>© <span id="year">2026</span> Khedmate Insan Foundation</small></div></footer>
+</body></html>
